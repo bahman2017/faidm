@@ -1,6 +1,9 @@
 # FITS data files (too large for GitHub)
 *.fits
 
+# Allow x1d files in data folder (smaller, essential files)
+!jades_analysis/data/*x1d.fits
+
 # Python cache files
 __pycache__/
 *.py[cod]

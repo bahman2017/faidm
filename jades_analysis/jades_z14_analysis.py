@@ -6,8 +6,8 @@ from astropy.cosmology import Planck18
 import astropy.units as u
 import pandas as pd
 
-# Step 1: Specify the folder path (use current directory)
-folder_path = '.'  # Current directory
+# Step 1: Specify the folder path (use data directory)
+folder_path = 'data'  # Data directory with FITS files
 
 # Step 2: Find only FITS files in the folder
 fits_files = [f for f in os.listdir(folder_path) if f.endswith('.fits')]

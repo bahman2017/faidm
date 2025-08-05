@@ -19,13 +19,10 @@ faidm/
 ├── requirements.txt             # Python dependencies
 ├── jades.py                     # Basic FITS file analysis
 ├── jades_z14_analysis.py        # Advanced analysis with model comparison
-├── results/
-│   ├── jades_results_table.csv  # Complete analysis results
-│   └── jades_spectra_plot.png   # Visualization of all spectra
-└── data/                        # FITS files (not included in repo)
-    ├── *.x1d.fits              # 1D extracted spectra
-    ├── *.s2d.fits              # 2D spectral data
-    └── *.cal.fits              # Calibrated data
+├── data/
+│   └── *.x1d.fits              # 1D extracted spectra (included in repo)
+├── jades_results_table.csv      # Complete analysis results
+└── jades_spectra_plot.png       # Visualization of all spectra
 ```
 
 ## 🔬 Scientific Background

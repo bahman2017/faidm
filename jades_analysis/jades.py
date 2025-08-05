@@ -8,7 +8,7 @@ import astropy.units as u
 # Step 1: Specify the folder path (replace with your actual folder path)
 # folder_path = '/fits'  # Change this to your folder path
 # If running in the same folder, use '.'
-folder_path = '.'
+folder_path = 'data'  # Look in the data folder for FITS files
 
 # Step 2: Find only FITS files in the folder
 fits_files = [f for f in os.listdir(folder_path) if f.endswith('.fits')]
